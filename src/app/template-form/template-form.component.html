@@ -16,6 +16,12 @@
                     <label for="phone" class="form-label input-group-text m-0">Phone Number : </label>
                     <input type="number" class="form-control " name="Phone" [(ngModel)]="Phone" required>
                 </div>
+                <div class="input-group mb-3">
+                    <label for="prefer" class="form-label input-group-text m-0">Gender </label>
+                    <select class="shadow-none " id="prefer" required name="gender" [(ngModel)]="gender">
+                        <option [value]="i" *ngFor="let i of preferences">{{i}}</option>
+                    </select>
+                </div>
                 <button type="submit" [disabled]="form.status==='INVALID'"
                     class="btn submit-btn btn-outline-success">Submit</button>
             </form>

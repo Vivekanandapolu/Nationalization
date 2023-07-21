@@ -11,6 +11,8 @@ export class TemplateFormComponent {
   Fname: any = ''
   Email: any = ''
   Phone: any = ''
+  gender: any
+  preferences: any = ["Male", "Female", "Others"]
   obj = {
     name: "",
     email: '',
