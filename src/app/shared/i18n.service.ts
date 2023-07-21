@@ -17,10 +17,7 @@ export class I18nService {
     }
     if (localStorage.getItem('lang')) {
       this.currentLanguage = localStorage.getItem('lang');
-      // if (this.currentLanguage == "AR") {
-      //   let side_val = document.getElementById("#main");
-      //   console.log(side_val);
-      // }
+
       lang_obj.lang = this.currentLanguage
       this.curr_lang.next(lang_obj)
 
@@ -35,9 +32,6 @@ export class I18nService {
 
     let key_value = this.langList.find((each: any) => each.lang === this.currentLanguage)
     return key_value.file[key]
-
-    // return this.langList[this.langList?.map((e: any, i: any) => e?.lang === this.currentLanguage ? i : null).filter((e: any) => e !== null)[0]]?.file.default[key];
-
   }
 
   languageChange(lang: any) {
