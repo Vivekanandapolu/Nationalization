@@ -1,0 +1,10 @@
+<a *ngFor="let lang of i18nService.langList" href="javascript:void(0);" class="not-selected-language"
+    [ngClass]="{'selected-language': i18nService.currentLanguage === lang.lang}"
+    (click)="i18nService.languageChange(lang.lang)">
+    <span class="mr-3 ">
+        <span class="flag-icon flag-icon-us mr-1" [ngStyle]="{'background-image':'url('+lang.flag+')'}"
+            [ngClass]="{'language-flag': i18nService.currentLanguage !== 'lang.lang', 'selected-language-flag': i18nService.currentLanguage === 'lang.lang'}">
+        </span>
+        {{lang.lang}}
+    </span>
+</a>

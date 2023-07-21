@@ -1,0 +1,6 @@
+.nav-header {
+    position: sticky;
+    /* top: 0px; */
+    z-index: 10;
+    background-color: black !important;
+}

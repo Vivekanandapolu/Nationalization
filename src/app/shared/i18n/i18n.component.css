@@ -1,0 +1,32 @@
+.flag-icon {
+    position: relative;
+    display: inline-block;
+    width: 1.33333333em;
+    line-height: 1em;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50%;
+    height: 12px;
+}
+
+
+.selected-language {
+    color: #fff !important;
+    font-weight: bold;
+}
+
+
+.not-selected-language {
+    color: #555555;
+    font-weight: bold;
+}
+
+
+.language-flag {
+    opacity: 0.6;
+}
+
+
+.selected-language-flag {
+    opacity: 0.9;
+}

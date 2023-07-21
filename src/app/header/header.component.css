@@ -1,0 +1,127 @@
+.div-1 {
+    width: 100%;
+    height: 125vh;
+    background-image: url("https://lirp.cdn-website.com/md/dmtmpl/a69a8193-ff56-4a01-b5ef-f9f81d9c7ee5/dms3rep/multi/opt/church_community_members_image-e7cded84-2880w.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+
+}
+
+
+.div-1-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 277px;
+    text-align: center;
+}
+
+.path {
+    color: orangered;
+}
+
+.div-2 {
+    background-color: rgb(255, 115, 0);
+    text-align: center;
+    padding: 30px;
+}
+
+.div-3 {
+    background-color: grey;
+    text-align: center;
+    padding: 30px;
+}
+
+.div-4 {
+    background-color: rgba(237, 201, 109, 0.927);
+    text-align: center;
+    padding: 30px;
+}
+
+.div-5 {
+    text-align: center;
+    padding: 32px 130px;
+}
+
+.div-6 {
+    width: 100%;
+    position: relative;
+    height: 30rem;
+    background-image: url("../../assets/pic-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+.div-6 h2,
+.div-7 h2,
+.div-8 h2 {
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    width: 100%;
+}
+
+.div-7 {
+    width: 100%;
+    position: relative;
+    height: 30rem;
+    background-image: url("../../assets/pic-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+.div-8 {
+    width: 100%;
+    position: relative;
+    height: 30rem;
+    background-image: url("../../assets/pic-3.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+.div-9 {
+    width: 100%;
+    position: relative;
+    height: 30rem;
+    background-image: url("../../assets/pic-4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+}
+
+.div-9 h1 {
+    color: white;
+    font-weight: bold;
+}
+
+.div-9:hover,
+.div-10:hover {
+    transform: scale(0.9);
+    overflow: hidden;
+    transition: 1s;
+}
+
+.div-10 {
+    width: 100%;
+    position: relative;
+    height: 30rem;
+    background-image: url("../../assets/pic-5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+}
+
+.div-10 h1 {
+    color: white;
+    font-weight: bold;
+
+}

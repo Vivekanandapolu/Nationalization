@@ -1,0 +1,37 @@
+<nav class="navbar navbar-expand-lg  navbar-light bg-dark nav-header ">
+    <div class="container-fluid">
+        <a href="#" class="navbar-brand">
+            <img class="object-fit-fill " width="156px" height="54px" src="../../assets/logo.jpeg" alt="">
+        </a>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#lis">
+            <span class="navbar-toggler-icon "></span>
+        </button>
+        <div class="collapse navbar-collapse " id="lis">
+            <ul class="navbar-nav w-100 d-flex justify-content-center gap-5 ">
+                <li class="nav-item  dropdown">
+                    <a class="nav-link text-white fs-5 dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink"
+                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        {{'about' | i18n:i18nService.currentLanguage}}
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                        <li><a routerLink="/about" class="dropdown-item" href="#">{{'action' |
+                                i18n:i18nService.currentLanguage}}</a></li>
+                        <li><a class="dropdown-item" href="#">{{'anotherAction' | i18n:i18nService.currentLanguage}}</a>
+                        </li>
+                        <li><a class="dropdown-item" href="#">{{'something' | i18n:i18nService.currentLanguage}}</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item  ">
+                    <a class="nav-link text-white fs-5 " href="#" id="navbarDarkDropdownMenuLink" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        {{'resources' | i18n:i18nService.currentLanguage}}
+                    </a>
+
+                </li>
+
+                <app-i18n class="d-flex align-items-center "></app-i18n>
+            </ul>
+        </div>
+    </div>
+</nav>
