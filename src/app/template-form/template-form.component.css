@@ -1,0 +1,21 @@
+.ng-invalid:not(form) {
+    border-left: 5px solid red;
+
+}
+
+
+
+.ng-valid:not(form) {
+    border-left: 5px solid green;
+}
+
+.container {
+    position: relative;
+    top: 30px;
+}
+
+.col-8 {
+    position: relative;
+    border: 2px solid pink;
+    padding: 30px;
+}

@@ -4,6 +4,7 @@ import { HeaderComponent } from './header/header.component';
 import { I18nComponent } from './shared/i18n/i18n.component';
 import { AboutComponent } from './about/about.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { TemplateFormComponent } from './template-form/template-form.component';
 
 const routes: Routes = [
   {
@@ -20,6 +21,10 @@ const routes: Routes = [
   }, {
     path: 'navbar',
     component: NavbarComponent
+  },
+  {
+    path: "form",
+    component: TemplateFormComponent
   }
   , {
     path: "**",

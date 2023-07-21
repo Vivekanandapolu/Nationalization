@@ -14,6 +14,8 @@ import { FrenchData } from './header/fr.json';
 import { I18nPipe } from './shared/i18n.pipe';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ArabicData } from './header/ar.json';
+import { TemplateFormComponent } from './template-form/template-form.component';
+import { FormsModule } from '@angular/forms';
 
 
 const languages = [
@@ -29,14 +31,16 @@ const languages = [
     AboutComponent,
     I18nComponent,
     I18nPipe,
-    NavbarComponent
+    NavbarComponent,
+    TemplateFormComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgbModule,
     CommonModule,
-    I18nModule.forRoot(languages)
+    I18nModule.forRoot(languages),
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

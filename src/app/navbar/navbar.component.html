@@ -14,9 +14,10 @@
                         {{'about' | i18n:i18nService.currentLanguage}}
                     </a>
                     <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-                        <li><a routerLink="/about" class="dropdown-item" href="#">{{'action' |
+                        <li><a routerLink="/about" routerLinkActive="active" class="dropdown-item" href="#">{{'action' |
                                 i18n:i18nService.currentLanguage}}</a></li>
-                        <li><a class="dropdown-item" href="#">{{'anotherAction' | i18n:i18nService.currentLanguage}}</a>
+                        <li><a routerLink="/form" routerLinkActive="active" class="dropdown-item"
+                                href="#">{{'anotherAction' | i18n:i18nService.currentLanguage}}</a>
                         </li>
                         <li><a class="dropdown-item" href="#">{{'something' | i18n:i18nService.currentLanguage}}</a>
                         </li>

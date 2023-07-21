@@ -2,7 +2,7 @@
 export const EnglishData = {
     about: "About",
     action: "Action",
-    anotherAction: 'Another action',
+    anotherAction: 'Form',
     something: "Something else here",
     resources: "Resources",
     welcomeMsg: " WELCOME TO PATH CHURCH",

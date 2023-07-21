@@ -1,0 +1,25 @@
+<app-navbar></app-navbar>
+<div class="container  ">
+    <div class="row">
+        <div class="col-2"></div>
+        <div class="col-8">
+            <form (ngSubmit)="onSubmit(form)" class="form" #form="ngForm">
+                <div class="input-group mb-3">
+                    <label for="name" class="form-label input-group-text  m-0">Name : </label>
+                    <input type="text" class="form-control " name="Fname" [(ngModel)]="Fname" required>
+                </div>
+                <div class="input-group mb-3">
+                    <label for="email" class="form-label input-group-text m-0">Email : </label>
+                    <input type="email" class="form-control " name="Email" [(ngModel)]="Email" required>
+                </div>
+                <div class="input-group mb-3">
+                    <label for="phone" class="form-label input-group-text m-0">Phone Number : </label>
+                    <input type="number" class="form-control " name="Phone" [(ngModel)]="Phone" required>
+                </div>
+                <button type="submit" [disabled]="form.status==='INVALID'"
+                    class="btn submit-btn btn-outline-success">Submit</button>
+            </form>
+        </div>
+        <div class="col-2"></div>
+    </div>
+</div>
